@@ -5,11 +5,7 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
-/**
- * @param {ListNode} l1
- * @param {ListNode} l2
- * @return {ListNode}
- */
+
  const addTwoNumbers = (l1, l2) => {
     let node = null;
     const carry = arguments[2];

@@ -1,12 +1,4 @@
-/**
- * @param {string} s
- * @return {number}
- */
-
-console.clear();
-
-const numeral = 'MMMDCCXXIV';
-
+//const numeral = 'MMMDCCXXIV';
 const romanToInt = (str) => {
    
   const values = {
@@ -32,19 +24,3 @@ const romanToInt = (str) => {
     }
     return {str, sum}}, {str, sum: 0})
 }
- 
-
-const kek = romanToInt(numeral);
-console.log(kek)
- //console.log(romanToInt('MMMDCCXXIV'))
-
-// const isBadVersion = (num) => {
-//   if(num > 3) {return true}
-//   return false
-// }
-
-// const kek = (isBadVersion, n) => [...Array(n+1).keys()].filter(ver => (!isBadVersion(ver))).pop() + 1;
-
-
-// const badVersion = kek(isBadVersion, 7)
-// console.log(badVersion)

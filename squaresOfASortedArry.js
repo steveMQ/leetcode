@@ -1,0 +1,1 @@
+ const sortedSquares = (nums) => nums.map(i => i*i).sort((a,b) => a - b);
