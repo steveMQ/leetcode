@@ -27,6 +27,5 @@
         node = new ListNode(1);
         node.next = null;
     }
-    console.log('yay');
     return node;  
 };
